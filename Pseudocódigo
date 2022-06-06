@@ -1,0 +1,9 @@
+Proceso PresupuestoTrabajoPintura
+	Definir 	numerometroscuadrados, costopintura, presupuestocliente Como Real;
+	Escribir "Ingresar el número de metros cuadrados a pintar: ";
+	Leer numerometroscuadrados;
+	Escribir "Ingresar el costo de la pintura (por metro cuadrado)";
+	Leer costopintura;
+	presupuestocliente<-(numerometroscuadrados*costopintura);
+	Escribir "Costo Total del Trabajo: ", presupuestocliente, " dolares";
+FinProceso
